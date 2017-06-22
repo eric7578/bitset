@@ -1,5 +1,10 @@
 package bitset
 
+// NewBitSet create BitSet with initial value
+func NewBitSet(value int) *BitSet {
+	return &BitSet{value}
+}
+
 /*
 BitSet provide methods to operate the undertable value.
 */
